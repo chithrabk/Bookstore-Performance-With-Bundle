@@ -1,0 +1,8 @@
+{
+    "baseUrl": "http://139.59.27.246:8765",
+    "basicToken": "Basic OTNlZDQ1M2UtYjdhYy00MTkyLWE2ZDQtYzQ1ZmFlMGQ5OWFjOmNsaWVudC5kZXZkMTIz",
+    "acceptValue": "application/json, text/plain, */*",
+    "urlEncodedType": "application/x-www-form-urlencoded",
+    "jsonType": "application/json"
+
+}
