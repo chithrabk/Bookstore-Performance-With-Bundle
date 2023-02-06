@@ -9,6 +9,7 @@ pipeline {
                 echo 'Running K6 performance tests...'
                 shell 'k6 run src/allTests/orderFlow.test.js '
                 echo 'Completed K6 performance tests...'
+                publishHTML([allowMissing: false, alwaysLinkToLastBuild: true, keepAll: true, reportDir: '', reportFiles: 'result.html', reportName: 'HTML Report', reportTitles: '', useWrapperFileDirectly: true])
             }
         }
     }
