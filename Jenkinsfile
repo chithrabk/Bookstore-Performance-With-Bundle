@@ -7,7 +7,8 @@ pipeline {
                 shell 'sudo chmod +x setup_k6.sh'
                 shell 'sudo ./setup_k6.sh'
                 echo 'Running K6 performance tests...'
-                shell 'k6 run src/allTests/orderFlow.test.js '                
+                shell 'k6 run src/allTests/orderFlow.test.js '
+                echo 'Completed K6 performance tests...'
             }
         }
     }
