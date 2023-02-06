@@ -34,7 +34,7 @@ export default function(){
     })
     group('Login with registered user',() => {
         token = login.loginRequest(signup.getLoginData());
-        // console.log(token)
+        console.log(token)
     })
     group('Add to cart request',() => {
         cart.addToCartRequest(token);
